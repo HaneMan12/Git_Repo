@@ -1,0 +1,16 @@
+// Arrays can hold many values under a single name, and you can access the values by referring to an index number.
+
+const students = [
+    { name: "Alice", age: 20, grade: 85 },
+    { name: "Bob", age: 22, grade: 92 },
+    { name: "Charlie", age: 19, grade: 78 },
+    { name: "David", age: 21, grade: 88 },
+    { name: "Eve", age: 20, grade: 95 }
+];
+
+student 0 = { name: "Alice", age: 20, grade: 85 }
+student 1 = { name: "Bob", age: 22, grade: 92 }
+student 2 = { name: "Charlie", age: 19, grade: 78 }
+
+// And so on...
+
