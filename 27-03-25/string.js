@@ -1,4 +1,4 @@
-/*const arr = ['apple', 'banana', 'cherry', 'strawberry'];
+const arr = ['apple', 'banana', 'cherry', 'strawberry'];
 
 function longestString(arr) {
   return arr.reduce((longest, current) => {
@@ -7,9 +7,9 @@ function longestString(arr) {
 }
 
 console.log(longestString); // Expected output: 'strawberry'
-*/
 
-const fruit = ['apple', 'banana', 'cherry', 'strawberry', 'banana'];
+
+/*const fruit = ['apple', 'banana', 'cherry', 'strawberry', 'banana'];
 removeDuplicate(fruit);
 function removeDuplicate(fruit) {
   return fruit.filter((item, index) => fruit.indexOf(item) === index);
@@ -35,7 +35,7 @@ console.log(longestString(arr)); // Expected output: 'strawberry'
 */
 //Make a function to remove the duplication in the array
 
-let arr = ["apple", "banana", "apple", "cherry", "banana"];
+/*let arr = ["apple", "banana", "apple", "cherry", "banana"];
 function removeDuplicates(fruitArr) {
   let uniqueArr = [];
   for (let i = 0; i < fruitArr.length; i++) {
@@ -45,4 +45,4 @@ function removeDuplicates(fruitArr) {
   }
   return uniqueArr;
 }
-console.log(removeDuplicates(arr)); // Expected output: ['apple', 'banana', 'cherry']
+console.log(removeDuplicates(arr)); // Expected output: ['apple', 'banana', 'cherry']*/
