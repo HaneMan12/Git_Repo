@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visitor Counter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="bg-white p-8 rounded-xl shadow-md w-full max-w-sm text-center">
+    <h1 class="text-2xl font-semibold text-gray-800 mb-4">Visitor Counter</h1>
+    <div id="count" class="text-6xl font-bold text-blue-600 my-6">0</div>
+    
+    <div class="flex justify-between gap-4">
+      <button onclick="changeCount(-1)" class="flex-1 bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-md text-lg">-</button>
+      <button onclick="changeCount(1)" class="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md text-lg">+</button>
+    </div>
+
+    <button onclick="resetCount()" class="mt-4 w-full bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-md text-lg">
+      Reset
+    </button>
+  </div>
+
+  <script>
+    let count = 0;
+
+    function updateDisplay() {
+      document.getElementById('count').textContent = count;
+    }
+
+    function changeCount(amount) {
+      count += amount;
+      if (count < 0) count = 0;
+      updateDisplay();
+    }
+
+    function resetCount() {
+      count = 0;
+      updateDisplay();
+    }
+
+    updateDisplay();
+  </script>
+</body>
+</html>
