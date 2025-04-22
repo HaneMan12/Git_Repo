@@ -12,4 +12,13 @@ function sumNumber(n) {
     return sum;
   }
 
-  console.log(sumNumber(8));
+  console.log(sumNumber(10));
+
+ 
+  const checkScore= () => {
+    const score = 70;
+    score >= 50 ? console.log("You passed the exam!") : console.log("You failed the exam.");
+  }
+    checkScore();
+
+    
