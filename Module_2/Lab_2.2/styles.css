@@ -1,4 +1,4 @@
-/* Basic reset and body styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,7 +8,6 @@ body {
     justify-content: center;
   }
   
-  /* Card container */
   .card {
     background-color: white;
     max-width: 300px;
@@ -18,21 +17,20 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
-  /* Profile image styling */
+
   .profile-img {
     width: 100px;
     border-radius: 50%;
     margin-bottom: 15px;
   }
   
-  /* Title and subtitle */
+
   .title {
     color: gray;
     font-size: 1.1em;
     margin: 5px 0;
   }
   
-  /* Contact button */
   .contact-btn {
     display: inline-block;
     margin-top: 15px;
